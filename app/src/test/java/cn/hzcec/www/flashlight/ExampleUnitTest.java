@@ -1,4 +1,4 @@
-package cn.hzcuec.www.flashlight;
+package cn.hzcec.www.flashlight;
 
 import org.junit.Test;
 
