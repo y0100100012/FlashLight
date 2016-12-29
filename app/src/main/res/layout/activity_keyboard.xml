@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBlue2">
+    <TextView
+        android:id="@+id/keyboardValue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:gravity="center_horizontal|bottom"
+        android:layout_marginTop="3dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/colorWhite"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorLightBlue"
+        android:orientation="horizontal"
+        android:rowCount="4"
+        android:columnCount="3">
+        <Button
+            android:id="@+id/keyNum1"
+            android:text="@string/num_one"
+            style="@style/GridItemStyle"/>
+        <Button
+            android:id="@+id/keyNum2"
+            android:text="@string/num_two"
+            style="@style/GridItemStyle"/>
+        <Button
+            android:id="@+id/keyNum3"
+            android:text="@string/num_three"
+            style="@style/GridItemStyle"/>
+        <Button
+            android:id="@+id/keyNum4"
+            android:text="@string/num_four"
+            style="@style/GridItemStyle" />
+        <Button
+            android:id="@+id/keyNum5"
+            android:text="@string/num_five"
+            style="@style/GridItemStyle" />
+        <Button
+            android:id="@+id/keyNum6"
+            android:text="@string/num_six"
+            style="@style/GridItemStyle" />
+        <Button
+            android:id="@+id/keyNum7"
+            android:text="@string/num_seven"
+            style="@style/GridItemStyle" />
+        <Button
+            android:id="@+id/keyNum8"
+            android:text="@string/num_eight"
+            style="@style/GridItemStyle" />
+        <Button
+            android:id="@+id/keyNum9"
+            android:text="@string/num_nine"
+            style="@style/GridItemStyle" />
+        <Button
+            android:id="@+id/keyPoint"
+            android:text="@string/point"
+            style="@style/GridItemStyle" />
+        <Button
+            android:id="@+id/keyNum0"
+            android:text="@string/num_zero"
+            style="@style/GridItemStyle" />
+        <Button
+            android:id="@+id/keyConfirm"
+            android:text="@string/confirm"
+            style="@style/GridItemStyle" />
+    </GridLayout>
+</LinearLayout>

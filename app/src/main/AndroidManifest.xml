@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.hzcec.www.flashlight">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PhotoBrowseActivity"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity android:name=".PhotoBrowse2Activity"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity android:name=".PhotoTakeActivity"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity android:name=".NFCScanActivity"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity android:name=".WifiActivity">
+
+        </activity>
+        <activity android:name=".VideoListActivity">
+
+        </activity>
+        <activity android:name=".VideoPlayActivity">
+
+        </activity>
+        <activity android:name="cn.hzcec.www.hiden.NFCWriter">
+
+        </activity>
+        <activity android:name=".PreferenceActivity">
+
+        </activity>
+        <activity android:name=".KeyboardActivity">
+
+        </activity>
+        <service android:name="cn.hzcec.www.io.NetService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.hzcec.www.service.NET_SERVICE"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

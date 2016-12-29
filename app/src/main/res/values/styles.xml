@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TextInfoStyle">
+        <item name="android:paddingLeft">@dimen/text_left_right_margin</item>
+        <item name="android:paddingRight">@dimen/text_left_right_margin</item>
+        <item name="android:paddingTop">@dimen/text_up_down_margin</item>
+        <item name="android:paddingBottom">@dimen/text_up_down_margin</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/text_style2</item>
+    </style>
+    <style name="TopTitleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@drawable/text_view_border</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="SecondTitleStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/text_view_border2</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="PreferenceNameStyle">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_margin">@dimen/list_view_item</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="PreferenceValueStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/list_view_item</item>
+    </style>
+    <style name="GridItemStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:width">80px</item>
+        <item name="android:layout_height">49px</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+
+</resources>

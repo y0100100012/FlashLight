@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Flash Light</string>
+    <string name="center_button">Center Button</string>
+    <string name="left_button">Left Button</string>
+    <string name="right_button">Right Button</string>
+    <string name="up_button">Up Button</string>
+    <string name="down_button">Down Button</string>
+    <string name="no_photo">没有图片</string>
+    <string name="photo_area">Photo Area</string>
+    <string name="camera_preview">Camera Preview</string>
+    <string name="wifi_connect">\tWIFI\n  已连接</string>
+    <string name="wifi_disconnect">\tWIFI\n  已断开</string>
+    <string name="server_connect">已连接\n  终端</string>
+    <string name="server_disconnect">未连接\n  终端</string>
+    <string name="nfc_sacn_sign">\t\t请扫描\n位置信息标签</string>
+    <string name="return_back">返回</string>
+    <string name="take_photo">拍摄</string>
+    <string name="confirm">确认</string>
+    <string name="up_load">上传</string>
+    <string name="main_info">Main Info</string>
+    <string name="nfc_no_exist">Device can not support NFC</string>
+    <string name="nfc_not_open">Please open NFC in system setting</string>
+    <string name="wifi_list">WIFI列表</string>
+    <string name="video_list">录像列表</string>
+    <string name="preference_list">设置</string>
+    <string name="sign">sign</string>
+    <string name="video_list_name">录像时间</string>
+    <string name="video_list_name2">时长 / 序号</string>
+    <string name="ip_address">显示终端IP</string>
+    <string name="photo_max">照片上限</string>
+    <string name="video_max">录像上限</string>
+
+    <string name="num_zero">0</string>
+    <string name="num_one">1</string>
+    <string name="num_two">2</string>
+    <string name="num_three">3</string>
+    <string name="num_four">4</string>
+    <string name="num_five">5</string>
+    <string name="num_six">6</string>
+    <string name="num_seven">7</string>
+    <string name="num_eight">8</string>
+    <string name="num_nine">9</string>
+    <string name="point">.</string>
+</resources>

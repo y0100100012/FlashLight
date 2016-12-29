@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:format24Hour="yyyy-MM-dd    hh:mm:ss"
+        android:timeZone="GMT+8"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/colorLightBlue"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/wifiPrompt"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="@string/wifi_disconnect"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/text_view_border"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textClock" />
+
+    <TextView
+        android:id="@+id/connectPrompt"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/server_disconnect"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/text_view_border"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textClock"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/list_view_item"
+        android:contentDescription="@string/main_info"
+        android:src="@drawable/main_info"
+        android:layout_below="@id/wifiPrompt"/>
+</RelativeLayout>
